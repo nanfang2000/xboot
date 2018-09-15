@@ -5,9 +5,9 @@ function M:init(w, h)
 
 	local assets = assets
 
-	self:addChild(DisplayShape.new(w, h)
-		:setSource(Pattern.texture(assets:loadTexture("graphics/dragme/bg.png")):setExtend(Pattern.EXTEND_REPEAT))
-		:paint())
+--	self:addChild(DisplayShape.new(w, h)
+--		:setSource(Pattern.texture(assets:loadTexture("graphics/dragme/bg.png")):setExtend(Pattern.EXTEND_REPEAT))
+--		:paint())
 
 	for i = 1, 5 do
 		local shape = DisplayShape.new(100, 50)

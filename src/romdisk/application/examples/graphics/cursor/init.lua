@@ -5,9 +5,9 @@ function M:init(w, h)
 
 	local assets = assets
 
-	self:addChild(DisplayShape.new(w, h)
-		:setSource(Pattern.texture(assets:loadTexture("graphics/cursor/bg.png")):setExtend(Pattern.EXTEND_REPEAT))
-		:paint())
+--	self:addChild(DisplayShape.new(w, h)
+--		:setSource(Pattern.texture(assets:loadTexture("graphics/cursor/bg.png")):setExtend(Pattern.EXTEND_REPEAT))
+--		:paint())
 
 	local cursor = assets:loadDisplay("graphics/cursor/cursor.png")
 		:addEventListener(Event.MOUSE_DOWN, function(d, e) d:setPosition(e.x, e.y) end)

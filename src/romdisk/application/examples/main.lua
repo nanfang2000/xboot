@@ -4,8 +4,6 @@ local stage = Stage.new()
 local sw, sh= stage:getSize()
 
 local testcases = TestCase.new({
-	require("games.2048"),
-	require("graphics.balls"),
 	require("graphics.cursor"),
 	require("graphics.dragme"),
 	require("widgets.button"),

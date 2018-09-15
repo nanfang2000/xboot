@@ -60,7 +60,8 @@ int xboot_main(int argc, char * argv[])
 	while(1)
 	{
 		/* Run shell */
-		run_shell();
+		//run_shell();
+                system("/application/examples");
 	}
 
 	/* Do all exit calls */
